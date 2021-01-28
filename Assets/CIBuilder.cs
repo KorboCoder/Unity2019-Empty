@@ -4,6 +4,6 @@ class CIBuilder
     static void PerformBuild()
     {
         string[] scenes = { "Assets/SampleScene.unity" };
-        BuildPipeline.BuildPlayer(scenes, "/root/bin", BuildTarget.Android, BuildOptions.None);
+        BuildPipeline.BuildPlayer(scenes, "project/bin/test", BuildTarget.Android, BuildOptions.None);
     }
 }
